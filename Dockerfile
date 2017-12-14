@@ -9,4 +9,8 @@ WORKDIR /pool/
 
 RUN npm update
 
+EXPOSE 8117
+EXPOSE 3333
+EXPOSE 5555
+EXPOSE 7777
 CMD node init.js
